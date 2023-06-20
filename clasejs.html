@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //Declaración de variables
+        var a = 2;
+        var b = 2.3;
+        var c = true;
+        var d = "hola";
+        
+        //se usa en bloque
+        let x=5;
+        let j=7;
+
+        let n1=parseInt(prompt("ingrese rango inicial"))
+        console.log(typeof(n1))
+
+        let n2=parseInt(prompt("ingrese rango final"))
+        console.log(typeof(n2))
+
+
+
+        for(let i=n1;i<=n2;i++){
+            for(let j=1;j<=12;j++){
+            console.log(` ${j} x ${i} = ${j*i}`);
+            }
+            console.log("\n")
+        }
+
+        // if(x<7){
+        //     console.log(j)
+        //     console.log("x es menor a 7");
+        // }else{
+        //     console.log("x no es menor a 7");
+        // }
+
+        // for(let i=0; i<10;i++){
+        //     console.log(i)
+        // }
+        // console.log(j)
+
+
+        // // alert(typeof(a)); 
+        // console.log(typeof(a));
+        // console.log(typeof(b));
+        // console.log(typeof(c));
+        // console.log(typeof(d));
+
+        if(a=="10" && b=="3"){
+            console ("Verdad")
+        }else if (b==2){
+            console.log("else")
+        }else{
+            console.log("otro mensaje")
+        }
+        switch(){
+            case "10": case "3": case "2":
+                console.log("Instructura")
+                break
+            case "1": 
+                console.log("Instructura")
+                break
+            
+            default: 
+                console.log("default")
+                break
+
+
+        }
+
+        let z=null
+        let g= ["key",3]
+
+        console.log(typeof(g))
+        console.log(typeof(z))
+
+        function saludo(){
+            console.log("Hola saludos")
+        }
+
+
+
+
+    </script>
+</head>
+<body>
+    <h1></h1>
+    
+</body>
+</html>
